@@ -593,4 +593,17 @@ key_bindings:
   - { key: F11,      mods: Super,   chars: "\x1b[23;3~"                      }
   - { key: F12,      mods: Super,   chars: "\x1b[24;3~"                      }
   - { key: NumpadEnter,             chars: "\n"                              }
+
+# tmux key bindings
+  - { key: T,     mods: Command,       chars: "\x02\x25" } 
+  - { key: T,     mods: Command|Shift, chars: "\x02\x22" }
+  - { key: W,     mods: Command,       chars: "\x04" }
+  - { key: H,     mods: Command,       chars: "\x02\x1b\x5b\x44" }
+  - { key: J,     mods: Command,       chars: "\x02\x1b\x5b\x42" }
+  - { key: K,     mods: Command,       chars: "\x02\x1b\x5b\x41" }
+  - { key: L,     mods: Command,       chars: "\x02\x1b\x5b\x43" }
+  - { key: Up,    mods: Command,       chars: "\x02\x1b\x5b\x31\x3b\x33\x41" }
+  - { key: Down,  mods: Command,       chars: "\x02\x1b\x5b\x31\x3b\x33\x42" }
+  - { key: Right, mods: Command,       chars: "\x02\x1b\x5b\x31\x3b\x33\x43" }
+  - { key: Left,  mods: Command,       chars: "\x02\x1b\x5b\x31\x3b\x33\x44" }
 ```
