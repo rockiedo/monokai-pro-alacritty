@@ -1,5 +1,8 @@
 # monokai-pro-alacritty
 This is my Monokai Pro theme for Alacritty.
+
+# [Please ignore this line] Just testing how pull requests works
+
 ```
 # Configuration for Alacritty, the GPU enhanced terminal emulator.
 
